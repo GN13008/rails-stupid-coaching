@@ -1,0 +1,16 @@
+<div class="container m-4">
+  <h1>Welcome to Stupid Coaching</h1>
+
+  <div class="block question">
+    <h3>Question : <%= params[:question] %></h3>
+  </div>
+
+  <div class="block answer">
+    <h3><%= @answer %></h3>
+  </div>
+
+  <div class="container">
+    <%= link_to "An other question ?", ask_path %>
+  </div>
+</div>
+
